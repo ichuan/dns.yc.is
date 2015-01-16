@@ -1,0 +1,265 @@
+html{
+    padding: 0px;
+    margin: 0px;
+    background-color: white;
+}
+body{
+    background-color: white;
+    font-family: ubuntu,"Helvetica Neue", Helvetica, Tahoma, "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+    font-weight: 300;
+    height: 0px;
+    border: white 0px solid;
+    padding: 0px;
+    margin: 0px;
+    /*overflow: hidden;*/
+}
+nav.navbar{
+    border: 1px;
+}
+
+
+nav div.container-fluid{
+    background: #6dcfed;
+    border-color: #6dcfed;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+
+nav .container-fluid .navbar-header {
+    margin-left: 80px;
+    margin-right: 0px;    
+    padding: 0px;
+}
+
+nav .container-fluid .navbar-header img{/*logo样式*/
+    width: 72px;
+}
+
+nav .container-fluid div ul{
+    float:right;
+    margin-right: 50px;
+}
+
+.navbar .navbar-nav li a{/*其他导航选项设置*/
+    float: right;
+    color: white;
+    font-size: 1.1em;
+    padding: 18px 20px;
+    transition: background-color 0.5s, color 0.5s;    
+}
+
+
+
+.navbar .navbar-nav li a:visited{ 
+    color: white;
+    
+}
+
+.navbar .navbar-nav li a:hover{    
+    background-color: white;
+    color: #6dcfed;
+}
+
+.navbar .navbar-nav li a:active{    
+    color: white;
+}
+
+nav div.container-fluid{
+    margin: 0px;
+}
+
+div#banner{/*banner样式*/
+    /*background: linear-gradient(to bottom, #6dcfed, #46c7fa);*/
+    
+    background-color: #6dcfed;
+    border: 0px solid #6dcfed;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+}
+div#slogan{
+    text-align: center;
+    padding-top: 20px;
+    margin: 0px;
+    position: relative;
+}
+
+div#banner div#slogan p.slogan{/*slogan样式*/
+    
+    color: white;
+    font-size: 30px;
+    margin-bottom: 34px;
+    margin-right: 0px;
+    
+    
+    -webkit-animation-duration: 1000ms;
+    -webkit-animation-timing-function: ease;
+    -webkit-animation-fill-mode: both;
+    -webkit-animation-name: fade-in-left;
+    -webkit-animation-delay: 1200ms;  
+    /* Standard syntax */
+    animation-duration: 1000ms;
+    animation-timing-function: ease;
+    animation-fill-mode: both;
+    animation-name: fade-in-left;
+    animation-delay: 1200ms;*/   
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes fade-in-left {
+    from {margin-left: 150px;opacity: 0;}
+    to {margin-left: 0px;opacity: 1;}
+}
+
+/* Standard syntax */
+@keyframes fade-in-left {
+    from {margin-left: 150px;opacity: 0;}
+    to {margin-left: 0px;opacity: 1;}
+}
+
+
+button#howcfg{/*button设置*/
+    
+    width: 180px;
+    font-size: 18px;
+    background-color: transparent;
+    border: 1px white solid;
+    display: inline-block;
+    margin-top: 14px;
+    margin-bottom: 80px;
+    padding: 12px 0px;
+    transition: background-color 0.5s, color 0.5s, border 0.5s;
+    border-radius: 26px;
+    
+    -webkit-animation-duration: 1000ms;
+    -webkit-animation-timing-function: ease;
+    -webkit-animation-fill-mode: both;
+    -webkit-animation-name: fade-in-left;
+    -webkit-animation-delay: 1600ms;  
+    /* Standard syntax */
+    animation-duration: 1000ms;
+    animation-timing-function: ease;
+    animation-fill-mode: both;
+    animation-name: fade-in-left;
+    animation-delay: 1600ms;*/  
+                
+}
+
+button#howcfg:hover{
+    
+    background-color: white;
+    color: #6dcfed;
+    border: 1px #6dcfed solid;
+    
+}
+
+
+div#banner div#pic{
+    padding-top: 60px;
+    padding-bottom: 60px;
+    padding-left: 200px;
+}
+
+div#banner div#pic img{ /*调整pic样式*/
+    height: 330px;
+     /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 1500ms;
+    -webkit-animation-timing-function: ease;
+    -webkit-animation-fill-mode: both;
+    -webkit-animation-name: fade-in-right;
+    -webkit-animation-delay: 200ms;  
+    /* Standard syntax */
+    animation-duration: 1500ms;
+    animation-timing-function: ease;
+    animation-fill-mode: both;
+    animation-name: fade-in-right;
+    animation-delay: 200ms;*/     
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes fade-in-right {
+    from {left: 0px;opacity: 0;}
+    to {left: 250px;opacity: 1;}
+}
+
+/* Standard syntax */
+@keyframes fade-in-right {
+    from {left: 0px;opacity: 0;}
+    to {left: 250px;opacity: 1;}
+}
+
+div#guide{
+    background-color: white;
+    border: 0px white;
+    padding：0px;
+    margin: 0px;
+    height: 200px;
+}
+
+div#guide .row{    
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+/* 设置4种机型配置图标及其文字*/
+
+div#guide .col-md-2{
+    
+    padding-top: 10px;
+    text-align: center;
+     /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 1500ms;
+    -webkit-animation-timing-function: ease;
+    -webkit-animation-fill-mode: both;
+    -webkit-animation-name: fade-in;
+    -webkit-animation-delay: 2800ms;  
+    /* Standard syntax */
+    animation-duration: 1500ms;
+    animation-timing-function: ease;
+    animation-fill-mode: both;
+    animation-name: fade-in;
+    animation-delay: 2800ms;*/    
+}
+
+div#guide div#device img{
+    height: 90px;
+    display: block;
+    margin:0 auto;
+    margin-top: 46px;
+    margin-bottom: 20px; 
+}
+
+div#guide div#device p{
+    font-size: 16px;
+    color: grey;
+    transition: color 0.5s;
+}
+
+
+
+/* 设置4种机型配置图标动画*/
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes fade-in{
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+/* Standard syntax */
+@keyframes fade-in-right {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+div#guide div#copyright{
+    text-align: center;    
+}
+
+div#guide div#copyright p{
+    padding-left: 0px;
+    padding-top: 50px;
+    margin-top: 0px;
+    color: grey;
+}

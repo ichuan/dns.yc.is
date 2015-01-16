@@ -1,0 +1,167 @@
+html{
+    padding: 0px;
+    margin: 0px;
+    background-color: white;
+}
+body{
+    background-color: white;
+    font-family: ubuntu,"Helvetica Neue", Helvetica, Tahoma, "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+    font-weight: 300;
+    height: 0px;
+    border: white 0px solid;
+    padding: 0px;
+    margin: 0px;
+    /*overflow: hidden;*/
+}
+/*导航条头部*/
+
+nav.navbar{
+    border: 1px;
+}
+
+nav div.container-fluid{
+    background: #6dcfed;
+    border-color: #6dcfed;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+nav .container-fluid .navbar-header {
+    margin-left: 80px;
+    margin-right: 0px;    
+    padding: 0px;
+}
+
+nav .container-fluid .navbar-header img{/*logo样式*/
+    width: 72px;
+}
+
+nav .container-fluid div ul{
+    float:right;
+    margin-right: 50px;
+}
+
+.navbar .navbar-nav li a{/*其他导航选项设置*/
+    float: right;
+    color: white;
+    font-size: 1.1em;
+    padding: 18px 20px;
+    transition: background-color 0.5s, color 0.5s;    
+}
+
+.navbar .navbar-nav li a:visited{ 
+    background-color: #6dcfed;
+    
+}
+
+.navbar .navbar-nav li a:hover{    
+    background-color: white;
+    color: #6dcfed;
+}
+
+nav div.container-fluid{
+    margin: 0px;
+}
+/*侧导航栏*/
+div#content{
+    margin-top: 100px;
+  
+}
+
+div#guidebar{
+    font-size: 1.1em;
+    background-color: white;
+    border-color: white;
+    margin-left: 38px;
+    position: fixed;    
+}
+
+div#guidebar ul li{
+    margin: 0px;
+}
+
+
+div#guidebar ul li a{
+    width: 200px;
+    color: grey;
+    border: 1px solid white;
+    border-radius: 0px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    padding-left: 20px;
+    margin-left: 0px;
+    /*width: 200px;*/
+    transition: color 0.5s, background 0.5s, border 0.5s;
+}
+
+div#guidebar ul li p{
+    width: 200px;
+    color: white;
+    border-bottom: 1px solid white;
+    background-color: #6dcfed;
+    padding: 14px 0px 14px 24px;
+    margin: 0px;
+}
+
+div#guidebar ul li a:hover{
+    color: white;
+    background: #6dcfed;
+    border: 1px solid #6dcfed;
+}
+
+/*具体配置内容*/
+div#howcfg p
+{
+    font-size: 1.1em;
+    padding-top: 18px;
+    margin: 0px; 
+    color: grey;
+}
+
+div#howcfg h4
+{
+    color: grey;
+    font-weight: 300;
+    line-height: 30px;
+}
+
+div#howcfg h5
+{
+    color: grey;
+    font-weight: 300;
+}
+
+div#howcfg div#steps-win img{
+    max-height: 280px;
+    max-width: 280px;
+}
+
+div#howcfg div#steps-mac img{
+    max-height: 360px;
+    max-width: 360px;
+}
+
+div#howcfg div#steps-android img{
+    max-height: 360px;
+    max-width: 360px;
+}
+
+div#howcfg div#steps-iphone img{
+    max-height: 340px;
+    max-width: 340px;
+}
+
+
+
+.tab-content .row .col-md-4{
+    text-align: center;
+}
+
+.tab-content .row .col-md-3{
+    text-align: center;
+}
+
+.tab-content .row .col-md-6{
+    text-align: center;
+}
+
