@@ -131,6 +131,7 @@ button#howcfg{/*button设置*/
     padding: 12px 0px;
     transition: background-color 0.5s, color 0.5s, border 0.5s;
     border-radius: 26px;
+    outline: none;
     
     -webkit-animation-duration: 1000ms;
     -webkit-animation-timing-function: ease;
